@@ -1,6 +1,6 @@
 
-import Header from "@/components/components/header";
-import SideBar from "@/components/components/side-nav";
+import Header from "@/components/header";
+import SideBar from "@/components/side-nav";
 import React from "react";
 
 const Dashboard = () => {

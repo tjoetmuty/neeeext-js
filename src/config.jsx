@@ -13,28 +13,32 @@ const NavItems = () => {
         name: 'Home',
         href: '/',
         icon: <Home size={20}/>,
-        active: pathname === '/'
+        active: pathname === '/',
+        position: 'top'
       },
       {
         name: 'Practices',
         href: '/',
         icon: <NotebookText size={20}/>,
-        active: pathname === '/practices'
+        active: pathname === '/practices',
+        position: 'top'
       },
       {
         name: 'Learning Progress',
         href: '/',
         icon: <ChartSpline size={20}/>,
-        active: pathname === '/learning-progress'
+        active: pathname === '/learning-progress',
+        position: 'top'
       },
       {
         name: 'Settings',
         href: '/',
         icon: <Settings size={20} />,
-        active: pathname === '/settings'
+        active: pathname === '/settings',
+        position: 'bottom'
       },
     ]
   )
 }
 
-export default config
+export default NavItems
