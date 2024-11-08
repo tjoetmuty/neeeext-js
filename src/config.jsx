@@ -27,7 +27,7 @@ const NavItems = () => {
       },
       {
         id: 3,
-        name: 'Learning Progress',
+        name: 'Progress',
         href: '/dashboard/learning-progress',
         icon: <ChartSpline size={20}/>,
         active: pathname === '/learning-progress',
