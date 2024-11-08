@@ -20,7 +20,7 @@ const NavItems = () => {
       {
         id: 2,
         name: 'Practices',
-        href: '/',
+        href: '/dashboard/practices',
         icon: <NotebookText size={20}/>,
         active: pathname === '/practices',
         position: 'top'
@@ -28,7 +28,7 @@ const NavItems = () => {
       {
         id: 3,
         name: 'Learning Progress',
-        href: '/',
+        href: '/dashboard/learning-progress',
         icon: <ChartSpline size={20}/>,
         active: pathname === '/learning-progress',
         position: 'top'
@@ -36,7 +36,7 @@ const NavItems = () => {
       {
         id: 4,
         name: 'Settings',
-        href: '/',
+        href: '/dashboard/settings',
         icon: <Settings size={20} />,
         active: pathname === '/settings',
         position: 'bottom'

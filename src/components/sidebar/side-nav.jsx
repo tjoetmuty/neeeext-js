@@ -23,7 +23,7 @@ const SideBar = () => {
             <SidebarItems
               label={item.name}
               icon={item.icon}
-              path={item.href}
+              href={item.href}
               active={item.active}
               isSideBarOpen={isSidebarOpen}
             />
@@ -33,7 +33,7 @@ const SideBar = () => {
             <SidebarItems
               label={item.name}
               icon={item.icon}
-              path={item.href}
+              href={item.href}
               active={item.active}
               isSideBarOpen={isSidebarOpen}
             />
