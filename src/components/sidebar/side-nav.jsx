@@ -3,6 +3,7 @@
 import { useState } from "react";
 import NavItems from "@/config";
 import SidebarItems from "./sideItems";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SideBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -29,7 +30,7 @@ const SideBar = () => {
             />
           </div>
         ) : (
-          <div key={index} className="sticky bottom-0 mt-auto mb-4 block">
+          <div key={index} className="bottom-0 mt-auto mb-4">
             <SidebarItems
               label={item.name}
               icon={item.icon}
@@ -40,6 +41,11 @@ const SideBar = () => {
           </div>
         )
       )}
+      <div className="">
+        <button type="button" className="absolute cursor-pointer left-4 top-12 w-8 border-2 border-[#1E1E1E] bg-white  rounded-full" onClick={toggleSidebar}>
+          {isSidebarOpen ? (<ChevronLeft size={16}/>) : (<ChevronRight size={16}/>)}
+        </button>
+      </div>
     </div>
   );
 };
