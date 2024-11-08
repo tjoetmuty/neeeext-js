@@ -10,6 +10,7 @@ const NavItems = () => {
   return (
     [
       {
+        id: 1,
         name: 'Home',
         href: '/',
         icon: <Home size={20}/>,
@@ -17,6 +18,7 @@ const NavItems = () => {
         position: 'top'
       },
       {
+        id: 2,
         name: 'Practices',
         href: '/',
         icon: <NotebookText size={20}/>,
@@ -24,6 +26,7 @@ const NavItems = () => {
         position: 'top'
       },
       {
+        id: 3,
         name: 'Learning Progress',
         href: '/',
         icon: <ChartSpline size={20}/>,
@@ -31,6 +34,7 @@ const NavItems = () => {
         position: 'top'
       },
       {
+        id: 4,
         name: 'Settings',
         href: '/',
         icon: <Settings size={20} />,

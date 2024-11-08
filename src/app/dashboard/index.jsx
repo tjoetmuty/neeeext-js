@@ -1,6 +1,6 @@
 
 import Header from "@/components/header";
-import SideBar from "@/components/side-nav";
+import SideBar from "@/components/sidebar/side-nav";
 import React from "react";
 
 const Dashboard = () => {
